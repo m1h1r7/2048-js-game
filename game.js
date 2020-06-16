@@ -206,13 +206,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // check for Game Over!!!
     function checkForGameOver() {
-        let zeros = 0;
-        for (let i = 0; i < width * width; i++) {
+        let numberOfZeros = 0;
+        for (let i = 0; i < squares.length; i++) {
             if(squares[i].innerHTML == 0) {
-                zeros++;
+                numberOfZeros++;
             }
         }
-        if(zeros.length === 0) {
+
+        if(numberOfZeros === 0) {
+            console.log("You lose!")
             resultDisplay.innerHTML = "You Lose!!!";
             document.removeEventListener('keyup', control);
         }
