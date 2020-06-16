@@ -1,1 +1,1 @@
-# 2048-js-game
+### 2048 game in pure HTML, JS, and CSS.
