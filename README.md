@@ -3,3 +3,5 @@
 Task List:
 - [x] Implement the game logic in JS
 - [ ] Write CSS so that game runs smoothly
+- [ ] Optimise JS
+- [ ] Convert the game into a production project
